@@ -12,7 +12,20 @@
 @if(Model != null)
 {
     <div class="row">
-        @foreach
+        @foreach(var modules in Model)
+        {
+            <div class="col-sm-6 mb-3">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@modules.Name</h5>
+                        <p class="card-text">
+                            @modules.Description
+                        </p>
+                        <a href="@modules.Name" class="btn btn-primary">Tovább a tesztre</a>
+                    </div>
+                </div>
+            </div>
+        }
     </div>
 }
 else

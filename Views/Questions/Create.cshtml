@@ -1,11 +1,12 @@
 ﻿@model ZhPractice.Models.Question.Question.QuestionViewModel
 
 @{
+    ViewData["Title"] = "Add Question";
 }
 
 <div class="p-3 mb-5 text-white rounded-bg">
 
-    <h1>Kérdés Hozzáadasa</h1>
+    <h1>Add Question</h1>
 
     <hr />
 
@@ -14,12 +15,8 @@
                     @using (Html.BeginForm())
                     {
                         <div class="form-group">
-                            <label class="control-label mb-3"> Kérdés: </label>
-                            <input asp-for="Questions.Name" class="form-control mb-3" type="text" />
-                        </div>
-                        <div class="form-group">
                             @Html.LabelFor(Model => Model.Questions.Name)
-                            @Html.TextBoxFor(Model => Model.Questions.Name, new {@class = "form-control"})
+                            @Html.TextBoxFor(Model => Model.Questions.Name, new {@class = "form-control mb-3"})
                             @Html.ValidationMessageFor(Model => Model.Questions.Name)
                         </div>
                         <div class="form-group">

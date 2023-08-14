@@ -1,6 +1,7 @@
 ﻿@model ZhPractice.Models.Module.ModuleViewModel
 
 @{
+    ViewData["Title"] = "Add Module";
 }
 <div class="p-3 mb-5 text-white rounded-bg">
     <h1>Add Module</h1>
@@ -33,3 +34,14 @@
     </div>
 </div>
 
+
+@section Scripts{
+    <script>
+        // handle the duplication error
+
+        var hasDuplicateError = @Html.Raw(Json.Serialize(ViewData["HasDuplicateError"]));
+        if (hasDuplicateError){
+            alert("Van már ilyen modul!");
+        }
+    </script>
+}

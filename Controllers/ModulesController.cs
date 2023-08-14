@@ -41,15 +41,37 @@ namespace ZhPractice.Controllers
         {
             if(ModelState.IsValid)
             {
-                // Save modules
+                // Check if a module with the same name already exists
+                bool moduleExists = await zhContext.Module.AnyAsync(m => m.Name == addModulRequest.Modules.Name);
 
-                await zhContext.Module.AddAsync(addModulRequest.Modules);
-                await zhContext.SaveChangesAsync();
+                if (!moduleExists)
+                {
 
-                return RedirectToAction("Index");
+                    // No duplicate so add the new module
+                    await zhContext.Module.AddAsync(addModulRequest.Modules);
+                    await zhContext.SaveChangesAsync();
+                    return RedirectToAction("Index");
+                }
+                else 
+                {
+                    ViewData["HasDuplicateError"] = true;
+                }
             }
 
             return View("Create");
         }
+
+        /*
+        public async Task<IActionResult> Edit() 
+        {
+            
+        
+        }
+
+        public async Task<IActionResult> Delete() 
+        {
+        
+        }
+        */
     }
 }

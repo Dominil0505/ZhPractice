@@ -6,8 +6,8 @@
     {
         public Question Questions { get; set; }
         public List<Module> Modules { get; set; }
-        public Answer Answers { get; set; }
-        public List<int> SelectedModuleId{ get; set; }
+        public List<Answer> Answers { get; set; }
+        public List<string> SelectedModuleId{ get; set; }
 
     }
 }

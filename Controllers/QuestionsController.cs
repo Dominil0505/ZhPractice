@@ -6,6 +6,7 @@ using ZhPractice.Data;
 using ZhPractice.Models.Question.Question;
 using ZhPractice.Areas.Identity;
 using ZhPractice.Models;
+using ZhPractice.Models.Answer;
 
 namespace ZhPractice.Controllers
 {
@@ -40,27 +41,51 @@ namespace ZhPractice.Controllers
             return View(questionViewModel);
         }
 
-
+        
         [HttpPost]
         public async Task<IActionResult> Create(QuestionViewModel addQuestionRequest) 
         {
+            // itt false lesz
             if (ModelState.IsValid)
             {
 
-                //Save question to database
-                await zhContext.Question.AddAsync(addQuestionRequest.Questions);
+                // Add new Question
+                Question newQuestion = new Question
+                {
+                    Name = addQuestionRequest.Questions.Name,
+                    CreatedDate = DateTime.Now
+                };
+
+                zhContext.Question.Add(newQuestion);
                 await zhContext.SaveChangesAsync();
 
-
-                //Save Question - Module relationship
-                foreach(int moduleId in addQuestionRequest.SelectedModuleId) 
+                // Save answers
+                foreach (var key in Request.Form.Keys)
                 {
-                    Question_Module questionModule = new Question_Module
+                    if (key.StartsWith("Answer_"))
                     {
-                        Question_Id = addQuestionRequest.Questions.Question_Id,
-                        Module_Id = moduleId
+                        var answerText = Request.Form[key].ToString();
+
+                        Answer newAnswer = new Answer
+                        {
+                            Text = answerText,
+                            Question_Id = newQuestion.Question_Id
+                        };
+
+                        await zhContext.AddAsync(newAnswer);
+                    }
+                }
+
+                var selectedModule = await zhContext.Module.FindAsync(addQuestionRequest.SelectedModuleId);
+                if (selectedModule != null) 
+                {
+                    var questionModule = new Question_Module
+                    {
+                        Question_Id = newQuestion.Question_Id,
+                        Module_Id = selectedModule.Module_Id,
                     };
-                    await zhContext.Question_Module.AddAsync(questionModule);
+
+                    zhContext.Question_Module.Add(questionModule);
                 }
 
                 await zhContext.SaveChangesAsync();
@@ -68,8 +93,7 @@ namespace ZhPractice.Controllers
                 return RedirectToAction("Index");
             }
 
-            addQuestionRequest.Modules = zhContext.Module.ToList();
-            return View("Create");
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
