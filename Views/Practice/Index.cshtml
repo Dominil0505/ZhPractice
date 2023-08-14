@@ -1,0 +1,23 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<ZhPractice.Models.Module.Module>
+
+
+@{
+    ViewData["title"] = "Practice";
+}
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if(Model != null)
+{
+    <div class="row">
+        @foreach
+    </div>
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">Nincs gyakorolni való Modul</h1>
+    </div>
+}

@@ -14,6 +14,31 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: Custom-font;
+    background-color: #1A1A1D;
+    
 }
 
+@font-face{
+    font-family: "Custom-font";
+    src:url(../css/fonts/Quicksand/Quicksand-VariableFont_wght.ttf)
+}
+
+.rounded-bg {
+    background-color: #1f2833;
+    border-radius: 25px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: red !important;
+    transition: 1s !important;
+}
+
+.nav-link:active {
+    color: red !important; 
+}

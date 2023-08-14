@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\ZhPractice\\ZhPractice.csproj": {}
+    "E:\\C#\\Zh_Practice\\ZhPractice\\ZhPractice.csproj": {}
   },
   "projects": {
-    "E:\\C#\\ZhPractice\\ZhPractice.csproj": {
+    "E:\\C#\\Zh_Practice\\ZhPractice\\ZhPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\ZhPractice\\ZhPractice.csproj",
+        "projectUniqueName": "E:\\C#\\Zh_Practice\\ZhPractice\\ZhPractice.csproj",
         "projectName": "ZhPractice",
-        "projectPath": "E:\\C#\\ZhPractice\\ZhPractice.csproj",
+        "projectPath": "E:\\C#\\Zh_Practice\\ZhPractice\\ZhPractice.csproj",
         "packagesPath": "C:\\Users\\Domi\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\ZhPractice\\obj\\",
+        "outputPath": "E:\\C#\\Zh_Practice\\ZhPractice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,247 +1,367 @@
 {
   "Files": [
     {
-      "Id": "E:\\C#\\ZhPractice\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZhPractice.bundle.scp.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZhPractice.bundle.scp.css",
       "PackagePath": "staticwebassets\\ZhPractice.bundle.scp.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\css\\site.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\Dosis-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\Dosis-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\OFL.txt",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\OFL.txt"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\README.txt",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\README.txt"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\static\\Dosis-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\static\\Dosis-Bold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\static\\Dosis-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\static\\Dosis-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\static\\Dosis-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\static\\Dosis-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\static\\Dosis-Light.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\static\\Dosis-Light.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\static\\Dosis-Medium.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\static\\Dosis-Medium.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\static\\Dosis-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\static\\Dosis-Regular.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Dosis\\static\\Dosis-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Dosis\\static\\Dosis-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\OFL.txt",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\OFL.txt"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\Quicksand-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\Quicksand-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\README.txt",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\README.txt"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\static\\Quicksand-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\static\\Quicksand-Bold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\static\\Quicksand-Light.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\static\\Quicksand-Light.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\static\\Quicksand-Medium.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\static\\Quicksand-Medium.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\static\\Quicksand-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\static\\Quicksand-Regular.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Quicksand\\static\\Quicksand-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Quicksand\\static\\Quicksand-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\README.txt",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\README.txt"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\RobotoSlab-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\RobotoSlab-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Black.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Black.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Bold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Light.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Light.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Medium.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Medium.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Regular.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Thin.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Roboto_Slab\\static\\RobotoSlab-Thin.ttf"
+    },
+    {
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\favicon.ico",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\js\\site.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\C#\\ZhPractice\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\C#\\Zh_Practice\\ZhPractice\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

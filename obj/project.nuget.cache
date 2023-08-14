@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lyd5sM1bA3drYB37E+aS/0NvNn+ohYfEZXSbpfsjWVvxTQlzV5HifHFJ4Lqkh7wDrRuBKFQKeq2k5e3ZzD9Gjg==",
+  "dgSpecHash": "QwzQVWVV8SQOfgNKaMw4sT0uGeJKb0ja4KGNCcJ09mB6ihbTdrh3FPOYOloe8KJh66y3TckEegzrhSuvkOyUBQ==",
   "success": true,
-  "projectFilePath": "E:\\C#\\ZhPractice\\ZhPractice.csproj",
+  "projectFilePath": "E:\\C#\\Zh_Practice\\ZhPractice\\ZhPractice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Domi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Domi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,0 +1,35 @@
+﻿@model ZhPractice.Models.Module.ModuleViewModel
+
+@{
+}
+<div class="p-3 mb-5 text-white rounded-bg">
+    <h1>Add Module</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-4">
+            @using (Html.BeginForm())
+            {
+                <div class="form-group">
+                    @Html.LabelFor(Model => Model.Modules.Name)
+                    @Html.TextBoxFor(Model => Model.Modules.Name, new {@class = "form-control mb-3"})
+                    @Html.ValidationMessageFor(Model => Model.Modules.Name)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(Model => Model.Modules.Description)
+                    @Html.TextBoxFor(Model => Model.Modules.Description, new {@class = "form-control mb-3"})
+                    @Html.ValidationMessageFor(Model => Model.Modules.Description)
+                </div>
+
+                <div class="form-group mb-3">
+                    <button type="submit" class="btn btn-primary" asp-action="Create">Add Module</button>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index" class="btn btn-warning">Back to modules</a>
+    </div>
+</div>
+

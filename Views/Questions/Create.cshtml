@@ -1,0 +1,73 @@
+﻿@model ZhPractice.Models.Question.Question.QuestionViewModel
+
+@{
+}
+
+<div class="p-3 mb-5 text-white rounded-bg">
+
+    <h1>Kérdés Hozzáadasa</h1>
+
+    <hr />
+
+    <div class="row">
+            <div class="col-md-4">
+                    @using (Html.BeginForm())
+                    {
+                        <div class="form-group">
+                            <label class="control-label mb-3"> Kérdés: </label>
+                            <input asp-for="Questions.Name" class="form-control mb-3" type="text" />
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(Model => Model.Questions.Name)
+                            @Html.TextBoxFor(Model => Model.Questions.Name, new {@class = "form-control"})
+                            @Html.ValidationMessageFor(Model => Model.Questions.Name)
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(Model => Model.SelectedModuleId)
+                            @Html.ListBoxFor(Model => Model.SelectedModuleId, new MultiSelectList(Model.Modules, "Module_Id", "Name"), new {@class ="form-control"})
+                            @Html.ValidationMessageFor(Model => Model.SelectedModuleId)
+                        </div>
+                        <div class="form-group">
+                            <span> Válasz hozzáadás! </span>
+                            <button type="button" onclick="addInput()" class="btn btn-primary mb-3">+</button>
+                            <br>
+                        </div>
+                        <div class="form-group" id="inputContainer">
+                        </div>
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn btn-primary" asp-action="Create">Kérdés hozzáadása</button>
+                        </div>
+                    }
+            </div>
+        </div>
+
+    <script>
+
+        var inputCount = 1;
+
+        function addInput() {
+
+        var container = document.getElementById("inputContainer");
+        var label = document.createElement("label");
+        var input = document.createElement("input");
+
+        input.type = "text";
+        input.name ="Answers_" + inputCount;
+        input.classList.add("mb-3");
+        input.classList.add("mx-3");
+    
+        label.innerText = inputCount + ". válasz ";
+        label.setAttribute("for", "Answers_" + inputCount);
+
+        container.appendChild(label);
+        container.appendChild(input);
+        container.appendChild(document.createElement("br"));
+        inputCount++;
+        }
+    </script>
+
+    <div>
+        <a asp-action="Index" class="btn btn-warning">Vissza a kérdésekhez</a>
+    </div>
+
+</div>

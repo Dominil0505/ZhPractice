@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model List<ZhPractice.Models.Question.Question.Question>
+
+@{
+    ViewData["Title"] = "Modulok";
+}
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+        /*
+    <div class="row">
+        
+        @foreach (var question in Model)
+        {
+            
+            // be kell fejezni ez így nem jó
+            if (question.Module.Contains(question.Name))
+            {
+                <div class="col-sm-6 mb-3">
+                    <div class="card text-white bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@question.Module</h5>
+                        <p class="card-text">
+                            @question.Description
+                        </p>
+                        <a href="@question.Module" class="btn btn-primary">Tovább a tesztre</a>
+                    </div>
+                </div>
+            </div>
+            }
+        }
+    </div>
+    */
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-4">Üdvözöllek a Zh gyakorlás oldalon</h1>
+        <h3 class="display-4">A kezdéshez regisztrálj!</h3>
+    </div>
+}

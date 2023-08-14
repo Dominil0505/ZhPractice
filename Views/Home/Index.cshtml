@@ -1,4 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
+@model List<ZhPractice.Models.Question.Question.Question>
 
 @{
     ViewData["Title"] = "Home Page";
@@ -9,48 +10,15 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <div class="row">
-        <div class="col-sm-6 mb-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Anatómia - Szív</h5>
-                    <p class="card-text">Anatómia szív teszt - 50 kérdés. Sok sikert!</p>
-                    <a href="#" class="btn btn-primary">Tovább a tesztre</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 mb-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Anatómia - Vese</h5>
-                    <p class="card-text">Anatómia vese teszt - 60 kérdés. Sok sikert!</p>
-                    <a href="#" class="btn btn-primary">Tovább a tesztre</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 mb-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Anatómia - Vese</h5>
-                    <p class="card-text">Anatómia vese teszt - 60 kérdés. Sok sikert!</p>
-                    <a href="#" class="btn btn-primary">Tovább a tesztre</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 mb-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Anatómia - Vese</h5>
-                    <p class="card-text">Anatómia vese teszt - 60 kérdés. Sok sikert!</p>
-                    <a href="#" class="btn btn-primary">Tovább a tesztre</a>
-                </div>
-            </div>
-        </div>
+    <div class="text-center text-white">
+        <h1 class="display-4 fw-bold">Sikeres bejelentkezés!</h1>
+        <h3 class="display-4 fw-bold">Menj a modulokra!</h3>
     </div>
+    
 }
 else {
-<div class="text-center">
-    <h1 class="display-4">Üdvözöllek a Zh gyakorlás oldalon</h1>
-    <h3 class="display-4">A kezdéshez regisztrálj!</h3>
+<div class="text-center text-white">
+    <h1 class="display-4 fw-bold">Üdvözöllek a Zh gyakorlás oldalon</h1>
+        <h3 class="display-4 fw-bold">A kezdéshez regisztrálj!</h3>
 </div>
 }

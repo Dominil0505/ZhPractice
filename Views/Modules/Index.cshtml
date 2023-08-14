@@ -1,0 +1,42 @@
+﻿@model List<ZhPractice.Models.Module.Module>
+
+@{
+    ViewData["title"] = "Modules";
+}
+
+<div class="p-3 mb-5 text-white rounded-bg">
+
+    <h1>Modules</h1>
+    <a asp-action="Create" class="btn btn-success">Modul hozzádasa</a>
+
+    <hr />
+
+    <table class="table text-white">
+        <thead>
+            <tr>
+                <td>Module</td>
+                <td>Description</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var module in Model)
+            {
+                @if (module != null)
+                {
+                    <tr>
+                        <td>@module.Name</td>
+                        <td>@module.Description</td>
+                        <td><a asp-action="Edit" class="btn btn-primary"><i class='bx bxs-edit-alt'></i></a></td>
+                        <td><a asp-action="Delete" class="btn btn-danger"><i class='bx bx-trash'></i></a></td>
+                    </tr>
+                }
+                else
+                {
+
+                }
+            }
+        </tbody>
+    </table>
+</div>

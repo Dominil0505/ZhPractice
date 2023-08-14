@@ -12,8 +12,8 @@ using ZhPractice.Data;
 namespace ZhPractice.Migrations
 {
     [DbContext(typeof(ZhPracticeDbContext))]
-    [Migration("20230613150347_Questions")]
-    partial class Questions
+    [Migration("20230715174144_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -227,26 +227,64 @@ namespace ZhPractice.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ZhPractice.Models.StudentEntity", b =>
+            modelBuilder.Entity("ZhPractice.Models.Module.Module", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Module_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                    b.Property<string>("FirstName")
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Module_Id"));
+
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LastName")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Major")
+                    b.HasKey("Module_Id");
+
+                    b.ToTable("Module");
+                });
+
+            modelBuilder.Entity("ZhPractice.Models.Question.Question.Question", b =>
+                {
+                    b.Property<int>("Question_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Question_id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Question_id");
+
+                    b.ToTable("Question");
+                });
+
+            modelBuilder.Entity("ZhPractice.Models.Question_Module", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Module_id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Question_Id")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Student");
+                    b.ToTable("Question_Module");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
