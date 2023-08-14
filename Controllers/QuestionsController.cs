@@ -7,6 +7,7 @@ using ZhPractice.Models.Question.Question;
 using ZhPractice.Areas.Identity;
 using ZhPractice.Models;
 using ZhPractice.Models.Answer;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ZhPractice.Controllers
 {
@@ -48,17 +49,33 @@ namespace ZhPractice.Controllers
             // itt false lesz
             if (ModelState.IsValid)
             {
+                var selectedModule = await zhContext.Module.FindAsync(addQuestionRequest.SelectedModule);
+                addQuestionRequest.ModuleSelectList = new List<SelectListItem>();
 
                 // Add new Question
                 Question newQuestion = new Question
                 {
                     Name = addQuestionRequest.Questions.Name,
+                    Module_Id = selectedModule.Module_Id,
                     CreatedDate = DateTime.Now
                 };
 
                 zhContext.Question.Add(newQuestion);
                 await zhContext.SaveChangesAsync();
 
+                /*foreach (var modules in addQuestionRequest.Answers)
+                {
+                    Answer newAnswer = new Answer
+                    {
+                        Text = modules.Text,
+                        Question_Id = newQuestion.Question_Id
+                    };
+
+                    await zhContext.AddAsync(newAnswer);
+                }*/
+
+
+                
                 // Save answers
                 foreach (var key in Request.Form.Keys)
                 {
@@ -75,24 +92,13 @@ namespace ZhPractice.Controllers
                         await zhContext.AddAsync(newAnswer);
                     }
                 }
-
-                var selectedModule = await zhContext.Module.FindAsync(addQuestionRequest.SelectedModuleId);
-                if (selectedModule != null) 
-                {
-                    var questionModule = new Question_Module
-                    {
-                        Question_Id = newQuestion.Question_Id,
-                        Module_Id = selectedModule.Module_Id,
-                    };
-
-                    zhContext.Question_Module.Add(questionModule);
-                }
-
+                
                 await zhContext.SaveChangesAsync();
 
                 return RedirectToAction("Index");
             }
 
+            ViewData["SomethingWentWrong"] = true;
             return RedirectToAction("Index");
         }
 
@@ -127,7 +133,6 @@ namespace ZhPractice.Controllers
             {
                 
                 question.Name = model.Name;
-                
 
                 await zhContext.SaveChangesAsync();
                 return RedirectToAction("Index");

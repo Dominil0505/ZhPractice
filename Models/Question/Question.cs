@@ -15,5 +15,8 @@ namespace ZhPractice.Models.Question.Question
 
         [Required]
         public DateTime CreatedDate { get; set; }
+
+        [ForeignKey("Module_Id")]
+        public int Module_Id { get; set; }
     }
 }

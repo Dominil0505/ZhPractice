@@ -20,9 +20,9 @@
                             @Html.ValidationMessageFor(Model => Model.Questions.Name)
                         </div>
                         <div class="form-group">
-                            @Html.LabelFor(Model => Model.SelectedModuleId)
-                            @Html.ListBoxFor(Model => Model.SelectedModuleId, new MultiSelectList(Model.Modules, "Module_Id", "Name"), new {@class ="form-control"})
-                            @Html.ValidationMessageFor(Model => Model.SelectedModuleId)
+                            @Html.LabelFor(Model => Model.SelectedModule)
+                            @Html.ListBoxFor(Model => Model.SelectedModule, new MultiSelectList(Model.Modules, "Module_Id", "Name"), new {@class ="form-control"})
+                            @Html.ValidationMessageFor(Model => Model.SelectedModule)
                         </div>
                         <div class="form-group">
                             <span> Válasz hozzáadás! </span>
@@ -68,3 +68,14 @@
     </div>
 
 </div>
+
+@section Scripts{
+    <script>
+        var hasError = @Html.Raw(Json.Serialize(ViewData["SomethingWentWrong"]))
+
+        if(hasError)
+        {
+            alert("Valami hiba van!")
+        }
+    </script>
+}

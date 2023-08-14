@@ -7,13 +7,14 @@
 <div class="p-3 mb-5 text-white rounded-bg">
 
     <h1>Modules</h1>
-    <a asp-action="Create" class="btn btn-success">Modul hozzádasa</a>
+    <a asp-action="Create" class="btn btn-success">Add module</a>
 
     <hr />
 
     <table class="table text-white">
         <thead>
             <tr>
+                <td>Id</td>
                 <td>Module</td>
                 <td>Description</td>
                 <td>Edit</td>
@@ -26,15 +27,21 @@
                 @if (module != null)
                 {
                     <tr>
+                        <td>@module.Module_Id</td>
                         <td>@module.Name</td>
                         <td>@module.Description</td>
                         <td><a asp-action="Edit" class="btn btn-primary"><i class='bx bxs-edit-alt'></i></a></td>
-                        <td><a asp-action="Delete" class="btn btn-danger"><i class='bx bx-trash'></i></a></td>
+                        <td>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@module.Module_Id">
+                                <button type="submit" class="btn btn-danger"><i class='bx bx-trash'></i></button>
+                            </form>
+                        </td>
+
                     </tr>
                 }
                 else
                 {
-
+                    
                 }
             }
         </tbody>

@@ -61,17 +61,40 @@ namespace ZhPractice.Controllers
             return View("Create");
         }
 
-        /*
-        public async Task<IActionResult> Edit() 
+        [HttpPost]
+        public async Task<IActionResult> Edit(EditViewModel model) 
         {
+            var module = await zhContext.Module.FindAsync(model.Module_Id);
             
-        
+            if (module != null) 
+            {
+                module.Name = model.Name;
+                module.Description = model.Description;
+
+                await zhContext.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+
+            return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Delete() 
+
+        // Delete Module
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> OnPostDelete(int id) 
         {
-        
+            var module = await zhContext.Module.FindAsync(id);
+
+            if (module != null)
+            {
+                zhContext.Module.Remove(module);
+
+                await zhContext.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+
+            return RedirectToAction("Index");
         }
-        */
     }
 }

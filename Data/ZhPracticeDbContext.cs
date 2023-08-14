@@ -15,7 +15,6 @@ namespace ZhPractice.Data
 
         public DbSet<Question> Question { get; set; }
         public DbSet<Module> Module { get; set; }
-        public DbSet<Question_Module> Question_Module { get; set; }
         public DbSet<Answer> Answers { get; set; }
     }
 }
